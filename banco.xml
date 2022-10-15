@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<banco
+  xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="BSG.xsd" codigo="4444" abreviatura="BSG">
+  <nome>Banco Simpático Galego</nome>
+  <presidente>
+    <nome>Luis</nome>
+    <apelido1>Gonzazle</apelido1>
+    <apelido2>Varela</apelido2>
+  </presidente>
+  <dataCreación día="10" mes="12" ano="2003"/>
+  <sucursais>
+    <sucursal codigo="0123">
+      <superficie unidade="m2">210</superficie>
+    </sucursal>
+    <sucursal codigo="0032">
+      <superficie unidade="m2">323</superficie>
+    </sucursal>
+  </sucursais>
+  <empregados>
+    <empregado codigo="EA44as" NSS="112233445566">
+      <nome>Irene</nome>
+      <apelido1>Mira</apelido1>
+      <apelido2>Fernández</apelido2>
+      <sucursal>0123</sucursal>
+      <cargo>Director</cargo>
+    </empregado>
+    <empregado codigo="EO45ai" NSS="992233445599">
+      <nome>Jose</nome>
+      <apelido1>Mira</apelido1>
+      <apelido2>Lema</apelido2>
+      <sucursal>0123</sucursal>
+      <cargo>Interventor</cargo>
+    </empregado>
+    <empregado codigo="EU55pi" NSS="888833448899">
+      <nome>Marcos</nome>
+      <apelido1>Martins</apelido1>
+      <apelido2>Dos Santos</apelido2>
+      <sucursal>0123</sucursal>
+      <cargo xs:nil="true"/>
+    </empregado>
+    <empregado codigo="EE46as" NSS="555888445566">
+      <nome>Iván</nome>
+      <apelido1>Mira</apelido1>
+      <apelido2>Fernández</apelido2>
+      <sucursal>0123</sucursal>
+      <cargo>Director</cargo>
+    </empregado>
+    <empregado codigo="EO66ai" NSS="323232445599">
+      <nome>Amador</nome>
+      <apelido1>Rivas</apelido1>
+      <apelido2>Rivas</apelido2>
+      <sucursal>0123</sucursal>
+      <cargo>Interventor</cargo>
+    </empregado>
+    <empregado codigo="EA66pi" NSS="111833448111">
+      <nome>Fernando José</nome>
+      <apelido1>Vázquez</apelido1>
+      <apelido2>Sanchez</apelido2>
+      <sucursal>0123</sucursal>
+      <cargo>outros</cargo>
+    </empregado>
+  </empregados>
+</banco>
